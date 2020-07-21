@@ -1,4 +1,4 @@
-package com.aws.service.aws.service;
+package com.springboot.with.aws.aws.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

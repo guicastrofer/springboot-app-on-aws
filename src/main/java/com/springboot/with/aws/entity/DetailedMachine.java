@@ -1,7 +1,6 @@
-package com.aws.service.entity;
+package com.springboot.with.aws.entity;
 
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -21,8 +20,8 @@ public class DetailedMachine extends Machine implements Serializable {
     private String javaVendor;
     private String javaVendorUrl;
 
-    public DetailedMachine(String ip, String name, String os, String architecture, String osVersion, String javaVersion, String javaVendor, String javaVendorUrl) {
-        super(ip, name, os, architecture, osVersion);
+    public DetailedMachine(Machine machine, String javaVersion, String javaVendor, String javaVendorUrl) {
+        super(machine.getIp(), machine.getName(), machine.getOs(), machine.getArchitecture(),machine.getOsVersion());
         this.javaVersion = javaVersion;
         this.javaVendor = javaVendor;
         this.javaVendorUrl = javaVendorUrl;

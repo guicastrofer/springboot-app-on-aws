@@ -1,4 +1,4 @@
-package com.aws.service.entity;
+package com.springboot.with.aws.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

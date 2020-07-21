@@ -1,4 +1,4 @@
-package com.aws.service.aws.service;
+package com.springboot.with.aws;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
